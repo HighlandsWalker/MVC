@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:52:04 +0300] "GET /app HTTP/1.1" 302 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:52:06 +0300] "GET /app/ HTTP/1.1" 200 57 http-bio-8080-exec-3 1875
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:52:06 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:53:08 +0300] "GET /app/mvc/employees/all HTTP/1.1" 200 12 http-bio-8080-exec-5 58751
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:53:18 +0300] "GET /app/mvc/employees/one HTTP/1.1" 200 17 http-bio-8080-exec-8 5913
-0:0:0:0:0:0:0:1 - - [21/Jul/2017:09:53:26 +0300] "GET /app/mvc/departments/one HTTP/1.1" 200 19 http-bio-8080-exec-8 2

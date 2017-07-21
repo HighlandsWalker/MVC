@@ -7,4 +7,14 @@
 
     <!--Configurare servleti-->
 
+    <servlet>
+        <servlet-name>Z2HDispatcherServlet</servlet-name>
+        <servlet-class>ro.teamnet.zth.Z2HDispatcherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Z2HDispatcherServlet</servlet-name>
+        <url-pattern>/mvc/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>

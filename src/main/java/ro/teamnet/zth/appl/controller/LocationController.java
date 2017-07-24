@@ -23,7 +23,7 @@ public class LocationController {
     }
 
     @Z2HRequestMethod(urlPath = "/one")
-    public Location getOne(@Z2HRequestParam(name = "id") Long locationId) {
+    public Location getOne(@Z2HRequestParam(name = "locationId") Long locationId) {
         return locationService.findOne(locationId);
     }
 }
